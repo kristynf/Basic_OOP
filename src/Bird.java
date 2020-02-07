@@ -1,18 +1,19 @@
 /*
  * All Birds are Animals but all Animals are not Birds
  */
+//this is inheritance
 public class Bird extends Animal {
     public Bird() {
         //super();
         System.out.println("A bird is hatched...");
     }
 
-
+    //polymorphism
     @Override
     public String sleep() {
         return "A bird sleeps soundly...";
     }
-
+    //polymorphism
     @Override
     public String eat() {
         return "A bird eats...";
